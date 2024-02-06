@@ -1,0 +1,45 @@
+.Navbar{
+    background-color: rgba(0, 0, 0, 0.212);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Audiowide', sans-serif;
+    height: 150px;
+}
+
+.Navbar .Logo img{
+    height: 150px;
+}
+
+.Navbar .Links{
+    display: flex;
+}
+
+.Navbar .Links div{
+    height: 100%;
+}
+
+.Navbar .Links a {
+    color: aliceblue;
+    margin: 1rem;
+    font-size: 1.5rem;
+    transition: all .2s linear;
+}
+
+.Navbar .Links a:hover {
+    color: var(--accent-color);
+}
+
+.Navbar-home .Links .Home {
+    display: none;
+}
+
+.Navbar-characters .Links .Characters {
+    display: none;
+}
+
+.Navbar-about .Links .About {
+    display: none;
+}
+
+

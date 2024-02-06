@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --audiowide: 'Audiowide', sans-serif;
+    --primary-color: #fff;
+    --second-color: #fff;
+    --accent-color: blue;
+}
